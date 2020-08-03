@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -63,7 +63,8 @@
     (pad_to_mask_clearance 0.13)
     (solder_mask_min_width 0.3)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFF7F)
+    (grid_origin 150 123.5)
+    (visible_elements 7FFFF77F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions true)
@@ -180,7 +181,7 @@
   )
 
   (module n64_cartridge:N64_Cartridge_Edge locked (layer F.Cu) (tedit 5F27F5C7) (tstamp 5F285440)
-    (at 132.75 126)
+    (at 150 130)
     (path /5F28C404)
     (attr virtual)
     (fp_text reference J1 (at 0 5.4) (layer F.SilkS) hide
@@ -292,7 +293,7 @@
   )
 
   (module MountingHole:MountingHole_2.5mm_Pad locked (layer F.Cu) (tedit 5E074D09) (tstamp 5E0AC945)
-    (at 180.15 122.6)
+    (at 197.4 126.6)
     (descr "Mounting Hole 2.5mm")
     (tags "mounting hole 2.5mm")
     (zone_connect 2)
@@ -313,7 +314,7 @@
   )
 
   (module MountingHole:MountingHole_2.5mm_Pad locked (layer F.Cu) (tedit 5E074C27) (tstamp 5E0AC8D8)
-    (at 85.35 122.6)
+    (at 102.6 126.6)
     (descr "Mounting Hole 2.5mm")
     (tags "mounting hole 2.5mm")
     (zone_connect 2)
@@ -333,46 +334,46 @@
       (net 1 GND) (zone_connect 2))
   )
 
-  (gr_arc (start 164 129) (end 164 130) (angle -90) (layer Edge.Cuts) (width 0.1))
-  (gr_arc (start 101.5 129) (end 101.5 130) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_text 25 (at 102.775 121) (layer B.SilkS) (tstamp 5C21450C)
+  (gr_arc (start 181.25 133) (end 181.25 134) (angle -90) (layer Edge.Cuts) (width 0.1))
+  (gr_arc (start 118.75 133) (end 118.75 134) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_text 25 (at 120.025 125) (layer B.SilkS) (tstamp 5C21450C)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
-  (gr_text 26 (at 162.75 121) (layer F.SilkS) (tstamp 5C2144EC)
+  (gr_text 26 (at 180 125) (layer F.SilkS) (tstamp 5C2144EC)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text 1 (at 162.775 121) (layer B.SilkS) (tstamp 5C21448D)
+  (gr_text 1 (at 180.025 125) (layer B.SilkS) (tstamp 5C21448D)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
-  (gr_text 50 (at 102.75 121) (layer F.SilkS)
+  (gr_text 50 (at 120 125) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_line (start 176.5 119.5) (end 176.5 126) (layer Edge.Cuts) (width 0.1) (tstamp 567FCDE6))
-  (gr_line (start 83.3 72.5) (end 83.3 70) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 82.5 72.5) (end 83.3 72.5) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 182 70) (end 182 91.5) (layer Edge.Cuts) (width 0.1) (tstamp 57577F31))
-  (gr_line (start 182 91.5) (end 179.4 91.5) (layer Edge.Cuts) (width 0.1) (tstamp 57577F23))
-  (gr_line (start 182 93) (end 179.4 93) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 179.4 93) (end 179.4 91.5) (layer Edge.Cuts) (width 0.1) (tstamp 57577E49))
-  (gr_line (start 182 93) (end 182 99) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 83.3 70) (end 182 70) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 82.5 93) (end 82.5 72.5) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 86 93) (end 82.5 93) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 86 94.5) (end 86 93) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 83.5 94.5) (end 86 94.5) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 83.5 97.5) (end 83.5 94.5) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 82.5 97.5) (end 83.5 97.5) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 182.5 99) (end 182 99) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 182.5 126) (end 182.5 99) (layer Edge.Cuts) (width 0.1) (tstamp 567FCE40))
-  (gr_line (start 182.5 126) (end 176.5 126) (layer Edge.Cuts) (width 0.1) (tstamp 567FCDFC))
-  (gr_line (start 176.5 119.5) (end 165 119.5) (layer Edge.Cuts) (width 0.1) (tstamp 567FCDBD))
-  (gr_line (start 165 129) (end 165 119.5) (layer Edge.Cuts) (width 0.1) (tstamp 567FCDA7))
-  (gr_line (start 82.5 126) (end 82.5 97.5) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 89 126) (end 82.5 126) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 89 119.5) (end 89 126) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 100.5 119.5) (end 89 119.5) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 100.5 129) (end 100.5 119.5) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 164 130) (end 101.5 130) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 193.75 123.5) (end 193.75 130) (layer Edge.Cuts) (width 0.1) (tstamp 567FCDE6))
+  (gr_line (start 100.55 76.5) (end 100.55 74) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 99.75 76.5) (end 100.55 76.5) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 199.25 74) (end 199.25 95.5) (layer Edge.Cuts) (width 0.1) (tstamp 57577F31))
+  (gr_line (start 199.25 95.5) (end 196.65 95.5) (layer Edge.Cuts) (width 0.1) (tstamp 57577F23))
+  (gr_line (start 199.25 97) (end 196.65 97) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 196.65 97) (end 196.65 95.5) (layer Edge.Cuts) (width 0.1) (tstamp 57577E49))
+  (gr_line (start 199.25 97) (end 199.25 103) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 100.55 74) (end 199.25 74) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 99.75 97) (end 99.75 76.5) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 103.25 97) (end 99.75 97) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 103.25 98.5) (end 103.25 97) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 100.75 98.5) (end 103.25 98.5) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 100.75 101.5) (end 100.75 98.5) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 99.75 101.5) (end 100.75 101.5) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 199.75 103) (end 199.25 103) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 199.75 130) (end 199.75 103) (layer Edge.Cuts) (width 0.1) (tstamp 567FCE40))
+  (gr_line (start 199.75 130) (end 193.75 130) (layer Edge.Cuts) (width 0.1) (tstamp 567FCDFC))
+  (gr_line (start 193.75 123.5) (end 182.25 123.5) (layer Edge.Cuts) (width 0.1) (tstamp 567FCDBD))
+  (gr_line (start 182.25 133) (end 182.25 123.5) (layer Edge.Cuts) (width 0.1) (tstamp 567FCDA7))
+  (gr_line (start 99.75 130) (end 99.75 101.5) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 106.25 130) (end 99.75 130) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 106.25 123.5) (end 106.25 130) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 117.75 123.5) (end 106.25 123.5) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 117.75 133) (end 117.75 123.5) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 181.25 134) (end 118.75 134) (layer Edge.Cuts) (width 0.1))
 
   (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5E08E0C2) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
@@ -380,9 +381,9 @@
     (fill (arc_segments 16) (thermal_gap 0.3) (thermal_bridge_width 0.6))
     (polygon
       (pts
-        (xy 182.5 70) (xy 182.5 126) (xy 176.5 126) (xy 176.5 119.5) (xy 165 119.5)
-        (xy 165 122.03) (xy 100.5 122.03) (xy 100.5 119.5) (xy 89 119.5) (xy 89 126)
-        (xy 82.51 125.99) (xy 82.5 70)
+        (xy 199.75 74) (xy 199.75 130) (xy 193.75 130) (xy 193.75 123.5) (xy 182.25 123.5)
+        (xy 182.25 126.03) (xy 117.75 126.03) (xy 117.75 123.5) (xy 106.25 123.5) (xy 106.25 130)
+        (xy 99.76 129.99) (xy 99.75 74)
       )
     )
   )
@@ -392,7 +393,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 88.9 119.5) (xy 82.5 119.5) (xy 82.5 126) (xy 89 126) (xy 89 119.5)
+        (xy 106.15 123.5) (xy 99.75 123.5) (xy 99.75 130) (xy 106.25 130) (xy 106.25 123.5)
       )
     )
   )
@@ -402,7 +403,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 89 126) (xy 89 119.5) (xy 82.5 119.5) (xy 82.5 126)
+        (xy 106.25 130) (xy 106.25 123.5) (xy 99.75 123.5) (xy 99.75 130)
       )
     )
   )
@@ -412,7 +413,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 176.5 119.5) (xy 182.5 119.5) (xy 182.5 126) (xy 176.5 126)
+        (xy 193.75 123.5) (xy 199.75 123.5) (xy 199.75 130) (xy 193.75 130)
       )
     )
   )
@@ -422,7 +423,7 @@
     (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 176.5 119.5) (xy 182.5 119.5) (xy 182.5 126) (xy 176.5 126)
+        (xy 193.75 123.5) (xy 199.75 123.5) (xy 199.75 130) (xy 193.75 130)
       )
     )
   )
@@ -432,9 +433,9 @@
     (fill (arc_segments 16) (thermal_gap 0.3) (thermal_bridge_width 0.6))
     (polygon
       (pts
-        (xy 100.5 119.5) (xy 100.51 122.03) (xy 165 122.03) (xy 165 119.5) (xy 176.5 119.5)
-        (xy 176.5 126) (xy 182.5 126) (xy 182.5 70) (xy 82.5 70) (xy 82.5 126)
-        (xy 89 126) (xy 89 119.5)
+        (xy 117.75 123.5) (xy 117.76 126.03) (xy 182.25 126.03) (xy 182.25 123.5) (xy 193.75 123.5)
+        (xy 193.75 130) (xy 199.75 130) (xy 199.75 74) (xy 99.75 74) (xy 99.75 130)
+        (xy 106.25 130) (xy 106.25 123.5)
       )
     )
   )
@@ -444,7 +445,7 @@
     (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 165 130) (xy 100.5 130) (xy 100.5 123) (xy 165 123)
+        (xy 182.25 134) (xy 117.75 134) (xy 117.75 127) (xy 182.25 127)
       )
     )
   )
@@ -454,7 +455,7 @@
     (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 165 130) (xy 100.5 130) (xy 100.5 123) (xy 165 123)
+        (xy 182.25 134) (xy 117.75 134) (xy 117.75 127) (xy 182.25 127)
       )
     )
   )
@@ -464,7 +465,7 @@
     (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 182.5 119.5) (xy 179 119.5) (xy 179 100) (xy 182.5 100)
+        (xy 199.75 123.5) (xy 196.25 123.5) (xy 196.25 104) (xy 199.75 104)
       )
     )
   )
@@ -474,7 +475,7 @@
     (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 182.5 119.5) (xy 179 119.5) (xy 179 100) (xy 182.5 100)
+        (xy 199.75 123.5) (xy 196.25 123.5) (xy 196.25 104) (xy 199.75 104)
       )
     )
   )
@@ -484,7 +485,7 @@
     (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 86 119.5) (xy 82.5 119.5) (xy 82.5 98.5) (xy 86 98.5)
+        (xy 103.25 123.5) (xy 99.75 123.5) (xy 99.75 102.5) (xy 103.25 102.5)
       )
     )
   )
@@ -494,7 +495,7 @@
     (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 86 119.5) (xy 82.5 119.5) (xy 82.5 98.5) (xy 86 98.5)
+        (xy 103.25 123.5) (xy 99.75 123.5) (xy 99.75 102.5) (xy 103.25 102.5)
       )
     )
   )
